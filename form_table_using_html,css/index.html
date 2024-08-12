@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header</title>
+    <link rel="stylesheet" href="1st_style.css">
+</head>
+
+<body>
+    <div id="bigbox">
+        <table id="table1">
+            <tr>
+                <th>sr. no.</th>
+                <th>tag</th>
+                <th>define</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>i</td>
+                <td>use to make word italic</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>b</td>
+                <td>use to make word blod</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>small</td>
+                <td>use to make word small</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>u</td>
+                <td>use to make word underlined</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>del</td>
+                <td>use to show word delete</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>ins</td>
+                <td>use to insert text</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>mark</td>
+                <td>use to highlight word</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>sub</td>
+                <td>use to show word subscript</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>sup</td>
+                <td>use to show word superscript</td>
+            </tr>
+        </table>
+        <div id="box">
+            <div class="smallbox">
+                <h1>STUDENT FORM</h1>
+            </div>
+            <div class="smallbox"><input type="text" placeholder="your name" required></div>
+            <div class="smallbox"><input type="number" placeholder="age"required></div>
+            <div class="smallbox"><input type="text" placeholder="address"required></div>
+            <div class="smallbox"><input type="number" placeholder="phone_no." maxlength="10"></div>
+            <div class="smallbox"><select type="placeholder">
+                    <option value="" selected disabled>semester</option>
+                    <option value="1st semester">1st semester</option>
+                    <option value="2st semester">2st semester</option>
+                    <option value="3st semester">3st semester</option>
+                    <option value="4st semester">4st semester</option>
+                    <option value="5st semester">5st semester</option>
+                    <option value="6st semester">6st semester</option>
+                </select></div>
+            <div class="smallbox">
+                <p>gender :</p>
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+            </div>
+            <div class="smallbox"><button onclick="submitform()">SUBMIT</button>
+            <div class="smallbox"><P id="response">Your form is not submitted</P></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function submitform(){
+            let response = document.querySelector("#response");
+            response.innerText = "Your form has been submitted";
+        }
+    </script>
+</body>
+
+</html>

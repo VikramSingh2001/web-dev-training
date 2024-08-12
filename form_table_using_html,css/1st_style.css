@@ -1,0 +1,23 @@
+
+table,th,tr,td{
+    border:2px solid black;
+}
+#bigbox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.smallbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#box{
+    padding: 10px;
+    border:2px solid black;
+    border-radius: 5%;   
+}
+p{
+    display: block;
+}
