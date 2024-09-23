@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Profile</title>
+</head>
+<body>
+    <div class="biggestbox">
+            <div class="box">
+                <h1>STUDENT FORM</h1>
+            <div class="smallbox"><input type="text" placeholder="your name" required></div>
+            <div class="smallbox"><input type="number" placeholder="age"required></div>
+            <div class="smallbox"><input type="text" placeholder="address"required></div>
+            <div class="smallbox"><input type="number" placeholder="phone_no." maxlength="10"></div>
+            <div class="smallbox"><select type="placeholder">
+                    <option value="" selected disabled>semester</option>
+                    <option value="1st semester">1st semester</option>
+                    <option value="2st semester">2st semester</option>
+                    <option value="3st semester">3st semester</option>
+                    <option value="4st semester">4st semester</option>
+                    <option value="5st semester">5st semester</option>
+                    <option value="6st semester">6st semester</option>
+                </select></div>
+            <div style="display: flex;align-items: center; justify-content: center;">
+                <p>gender :</p>
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">female
+            </div>
+            <div class="smallbox"><button onclick="submitform()">SUBMIT</button>
+            <div class="smallbox"><P id="response">Your form is not submitted</P></div>
+            </div>
+        </div>
+    <div class="box">
+        <div class="smallbox">
+            <h1>My Profile</h1>
+            <div id="other">
+                <p>Hello! My name is mahendra singh.</p>
+                <img src="th.jpg">
+            </div>
+            <h2>Interests</h2>
+            <ul>
+                <li>Reading</li>
+                <li>Coding</li>
+                <li>Traveling</li>
+            </ul>
+            <h2>Education</h2>
+            <p style="text-align: center;">I am currently pursuing my Batchelor from Techno India NJR.</p>
+            <a href="#" title="i haven't created so don't click it ">Visit portfolio</a>
+        </div>
+    </div>
+    <div class="box">
+        <h1>My Favorite Foods</h1>
+    <ol>
+        <li>Pizza
+            <ul>
+                <li>Dough</li>
+                <li>Tomato Sauce</li>
+                <li>Cheese</li>
+            </ul>
+        </li>
+        <li>Burger
+            <ul>
+                <li>Bun</li>
+                <li>Patty</li>
+                <li>Lettuce</li>
+            </ul>
+        </li>
+        <li>Pasta
+            <ul>
+                <li>Pasta Noodles</li>
+                <li>Olive Oil</li>
+                <li>Parmesan Cheese</li>
+            </ul>
+        </li>
+    </ol>
+    <h2>Submit Your Favorite Food</h2>
+    <form action="#" method="post">
+        <label for="food">Food Name:</label>
+        <input type="text" id="food" name="food" required><br><br>
+        <label for="ingredients">Ingredients:</label>
+        <textarea id="ingredients" name="ingredients" required></textarea><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+    <div class="box">
+        <h1>Interesting Websites</h1>
+    <ul>
+        <li><a href="https://www.wikipedia.org" target="_blank">Wikipedia</a></li>
+        <li><a href="https://www.stackoverflow.com" target="_blank">Stack Overflow</a></li>
+        <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+        <li><a href="https://www.freecodecamp.org" target="_blank">FreeCodeCamp</a></li>
+        <li><a href="https://www.codecademy.com" target="_blank">Codecademy</a></li>
+    </ul>
+    </div>
+    <div class="box">
+        <h1>Table Example</h1>
+    <table>
+        <tr>
+            <td rowspan="2">Rowspan</td>
+            <td colspan="2">Colspan</td>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+        </tr>
+    </table>
+    </div>
+    <div class="box">
+        <h1>Navigation Menu</h1>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </div>
+</div>
+</body>
+</html>

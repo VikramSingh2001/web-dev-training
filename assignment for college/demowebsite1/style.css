@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+#header img {
+    width: 5rem;
+    height: 2.5rem;
+}
+#logo {
+    height: 40px;
+    width: 40px;
+}
+
+#header i {
+    font-size: x-large;
+}
+
+#heroimg img {
+    overflow: hidden;
+    height: auto;
+    width: 100%;
+}
+
+#heroword {
+    padding-left: 7rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    height: 30rem;
+    background-image: url(/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+#heroword h3,
+#heroword p {
+    margin: 0;
+    font-family: Ubuntu, sans-serif !important;
+}
+
+#heroword p {
+    font-size: 5vw;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+}
+
+#heroword h3 {
+    font-size: 10vw;
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+}
+
+#heroimg1 {
+    width: 100%;
+    height: 300px;
+    background-color: #7da2a9;
+}
+
+#heroimgtext {
+    margin-left: 20vw;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#heroimg1A {
+    text-align: right;
+    font-family: Ubuntu, sans-serif;
+    margin-right: 90px;
+    padding-top: 4rem;
+}
+
+#heroimg1B {
+    width: 400px;
+    padding-top: 40px;
+}
+
+#heroimg2A {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Ubuntu, sans-serif;
+}
+
+.heroimg-row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.heroimg {
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.heroimg i {
+    font-size: xx-large;
+}
+
+#heroimg3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #18181e;
+    color: white;
+}
+
+#heroimg3A {
+    width: 50%;
+    height: 30rem;
+    background-image: url(/download1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#heroimg3B {
+    width: 50%;
+    padding: 50px;
+}
+
+#heroimg3C {
+    font-size: large;
+    background-color: #7da2a9;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#heroimg4 {
+    text-align: center;
+}
+
+#heroimg5 {
+    width: 100%;
+    height: 100%;
+}
+
+.img-x {
+    height: 300px;
+    width: 250px;
+    margin: 2rem;
+}
+
+#heroimg5A,
+#heroimg5B,
+#heroimg5C {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+#heroimg5Aa{
+    background-image: url(download1.jpg);
+}
+#heroimg5Ab{
+    background-image: url(download7.jpg);
+}
+#heroimg5Ba{
+    background-image: url(download3.jpg);
+}
+#heroimg5Bb{
+    background-image: url(download4.jpg);
+}
+#heroimg5Ca{
+    background-image: url(download5.jpg);
+}
+#heroimg5Cb{
+    background-image: url(download6.jpg);
+}
+#division_5
+    {
+        background-color: #7da2a9;
+        color: aliceblue;
+        font-family: Ubuntu, sans-serif;
+        height: 40vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #division_5 h2{
+        font-size: 1.875rem;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #division_5 p{
+        font-size:1rem;
+        font-family: 'Open Sans', sans-serif;
+        letter-spacing:1px;
+    }
+
+
+    #division_6{
+        height:65vh;
+        display:flex;
+    }
+  
+    .img_div6{
+        height:100%;   
+        width:35%;
+        background-position:center;
+        background-size:cover;
+    }
+     
+    #img1_div6{
+        background-image: url(download9.jpg);   
+    }
+    #img2_div6
+    {
+        background-image: url(download9.jpeg);
+    }
+    #img3_div6{
+        background-image: url(download8.jpg);
+    }
+
+
+    #division_7
+    {
+        height:80vh;
+        display: flex;
+    }
+
+    #div7_2{
+        background-color: #18181e;
+        height:100%;
+        width:50%;
+    }
+    #div7_1,#div7_2
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #div71_1
+    {
+        display: flex;
+        gap:20px;
+    }
+    #div71_1 i
+    {
+        font-size: large;
+    }
+    #div7_1 h2
+    {
+        font-size: 1.87rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-family: Ubuntu, sans-serif;
+    }
+    #div7_1 p
+    {
+      font-size: 1rem;
+      line-height: 1.6;
+      font-family: 'Open Sans', sans-serif;
+    }
+    #div7_2
+    {
+        flex-direction: column;
+        gap:15px;
+    }
+    .div7input
+    {
+       padding: 15px 0px;
+       /* height:20px; */
+       width:65%;
+       background: transparent;
+       border:1.5px solid white;
+       font-size:15px;
+       font-weight: bold;
+       padding-left: 20px;
+
+
+
+    }
+    #div7input2
+    {
+       height:130px; 
+       width:65%;
+       background: transparent;
+       border:1.5px solid white;
+       font-size: 15px;
+       font-weight: bold;
+       padding-bottom: 80px;
+       padding-left: 20px;
+    }
+
+    #div7btn{
+        padding:12px 35px;
+        background-color: #c6d9dd;
+        color: #18181e;
+        font-size: 17px;
+        margin-right: 369.5px;
+    }
+    #div7btn:hover
+    {
+        color: white;
+    }
+    #division8
+    {
+        height:13vh;
+        background-color: #333333;
+        color: white;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.8rem;
+        word-spacing:1px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #divsion8 p a
+    {
+        color:#c6d9dd;
+    }
+    #div7_11 h2{
+        font-size: larger;
+    }
+    #div7_11 p{
+        font-size: x-small;
+    }
+    #div7_11{
+        width: 50%;
+        padding-top: 4rem;
+        padding-left: 4rem;
+    }
+    #div7_2{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
